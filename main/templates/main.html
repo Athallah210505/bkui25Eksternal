@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksternal Dashboard Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-height {
+            min-height: 80vh;
+        }
+        .card-height {
+            min-height: 450px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section with Blue Background - MADE TALLER -->
+    <div class="w-full bg-blue-600 py-24 px-6 relative overflow-hidden hero-height flex items-center">
+        <!-- Stats Bubble - Top Left - MADE BIGGER -->
+        <div class="absolute left-16 top-24">
+            <div class="bg-blue-700/50 text-white rounded-full px-6 py-2.5 backdrop-blur-sm flex items-center shadow-lg">
+                <div class="w-6 h-6 rounded-full bg-green-400 mr-3 flex items-center justify-center text-xs">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 12l-4-4m4 4l4-4m-4 4v-8" />
+                    </svg>
+                </div>
+                <span class="font-bold text-xl">100%</span>
+                <span class="ml-2 text-base">PASTI SUKSES</span>
+            </div>
+        </div>
+
+        <!-- Stats Bubble - Top Right - MADE BIGGER -->
+        <div class="absolute right-16 top-16">
+            <div class="bg-blue-700/50 text-white rounded-full px-6 py-2.5 backdrop-blur-sm flex items-center shadow-lg">
+                <div class="w-6 h-6 rounded-full bg-green-400 mr-3 flex items-center justify-center text-xs">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 12l-4-4m4 4l4-4m-4 4v-8" />
+                    </svg>
+                </div>
+                <span class="font-bold text-xl">BISA YUK</span>
+                <span class="ml-2 text-base">GUYS</span>
+            </div>
+        </div>
+
+        <!-- Diagonal Line Decoration - MADE BIGGER -->
+        <div class="absolute left-80 top-60">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+                <path d="M3 27L27 3" stroke="#A0F0C0" stroke-width="3"/>
+            </svg>
+        </div>
+        <div class="absolute right-80 top-60">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+                <path d="M3 27L27 3" stroke="#A0F0C0" stroke-width="3"/>
+            </svg>
+        </div>
+
+        <!-- Main Hero Content - LARGER TEXT -->
+        <div class="text-center max-w-4xl mx-auto w-full">
+            <h1 class="text-white text-5xl md:text-7xl font-bold mb-3">#EKSTERNAL</h1>
+            <h2 class="text-green-300 text-5xl md:text-7xl font-bold mb-3">DASHBOARD</h2>
+            <h2 class="text-white text-5xl md:text-7xl font-extrabold mb-8">PLATFORM</h2>
+            <p class="text-white text-xl md:text-2xl mb-12 max-w-3xl mx-auto">
+                SEMOGA INI DAPAT MEMBANTU KALIAN SEMUA DALAM MENGELOLA BKUI DENGAN LEBIH MUDAH DAN EFEKTIF.
+            </p>
+            
+            <!-- CTA Buttons - MADE BIGGER -->
+            <div class="flex justify-center space-x-6">
+                <a href="https://drive.google.com/drive/folders/1PTCVS5cRVZ4bZpGhR310VrNa0SRjv-eH?usp=sharing" target="_blank" class="bg-white text-blue-600 px-8 py-4 rounded-full flex items-center text-lg font-bold shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+                    <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                    MAIN DRIVE 
+                </a>
+                <a href="https://drive.google.com/drive/folders/1ZwM6RbLx664b74osDLmpuAHKjp0oDx6h" target="_blank" class="border-2 border-white text-white px-8 py-4 rounded-full flex items-center text-lg font-bold hover:bg-white hover:text-blue-600 transition-all transform hover:scale-105">
+                    <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    LINK 3P
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section - LARGER CARDS -->
+    <div class="max-w-7xl mx-auto px-6 py-24">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Track Content Card - TALLER -->
+            <div class="bg-white rounded-2xl shadow-xl p-8 text-center card-height flex flex-col transform hover:scale-105 transition-all">
+                <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                    </svg>
+                </div>
+                <h1 class="text-2xl font-bold mb-3">PUBLIC RELATION</h1>
+          
+                <div class="my-8">
+                    <div class="text-blue-600 text-4xl font-bold mb-2">20K IG FOLLS</div>
+                    <div class="text-green-500 text-base font-medium">+1200% growth</div>
+                </div>
+                
+                <div class="space-y-3 mt-auto">
+                    <a href="https://docs.google.com/spreadsheets/d/1EkJ4FrTT4Id9E4hGLCMpcJoPxryYAESIcdqm0etan7I/edit?gid=281615468#gid=281615468" target="_blank" class="w-full bg-blue-600 text-white py-3 rounded-lg flex items-center justify-center text-lg font-medium hover:bg-blue-700 transition-colors">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 005 10a6 6 0 0012 0c0-.358-.035-.708-.104-1.049A5.001 5.001 0 0010 11z"></path>
+                        </svg>
+                        TikTok Tracker
+                    </a>
+                    <a href="https://docs.google.com/spreadsheets/d/1EkJ4FrTT4Id9E4hGLCMpcJoPxryYAESIcdqm0etan7I/edit?gid=0#gid=0" target="_blank" class="w-full bg-gray-100 text-gray-700 py-3 rounded-lg flex items-center justify-center text-lg font-medium hover:bg-gray-200 transition-colors">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM5.5 8.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM10 6a2 2 0 110 4 2 2 0 010-4zm4.5 2.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"></path>
+                        </svg>
+                        Instagram Tracker
+                    </a>
+
+                    <a href="https://docs.google.com/spreadsheets/d/1vPjjDXOujSbyoKhoDBdkPBVB_vlswZJnrRVMkataLME/edit?gid=1486200054#gid=1486200054" target="_blank" class="w-full bg-gray-100 text-gray-700 py-3 rounded-lg flex items-center justify-center text-lg font-medium hover:bg-gray-200 transition-colors">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM5.5 8.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM10 6a2 2 0 110 4 2 2 0 010-4zm4.5 2.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"></path>
+                        </svg>
+                        Publication Tracker
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Manage Campaigns Card - TALLER -->
+            <div class="bg-white rounded-2xl shadow-xl p-8 text-center card-height flex flex-col transform hover:scale-105 transition-all">
+                <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </div>
+                <h1 class="text-2xl font-bold mb-3">MARKETING</h1>
+             
+                <div class="my-8">
+                    <div class="text-green-600 text-4xl font-bold mb-2">50 MEDPAR</div>
+                    <div class="bg-green-100 text-green-600 text-base px-3 py-1 rounded-md inline-block font-medium">Success Rate 100%</div>
+                </div>
+                
+                <div class="space-y-3 mt-auto">
+                    <a href="https://docs.google.com/spreadsheets/d/1WwjODyVJTzXrapzEZ4PWQz2vQNundtTe_WqtNA4xWhY/edit?gid=0#gid=0" target="_blank" class="w-full bg-green-500 text-white py-3 rounded-lg flex items-center justify-center text-lg font-medium hover:bg-green-600 transition-colors">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"></path>
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clip-rule="evenodd"></path>
+                        </svg>
+                        MEDPAR TRACKER
+                    </a>
+                    <a href="https://drive.google.com/drive/folders/1PTCVS5cRVZ4bZpGhR310VrNa0SRjv-eH?usp=sharing" target="_blank" class="w-full bg-gray-100 text-gray-700 py-3 rounded-lg flex items-center justify-center text-lg font-medium hover:bg-gray-200 transition-colors">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
+                            <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"></path>
+                        </svg>
+                        CASA TRACKER
+                    </a>
+                    <a href="https://drive.google.com/drive/folders/1PTCVS5cRVZ4bZpGhR310VrNa0SRjv-eH?usp=sharing" target="_blank" class="w-full bg-gray-100 text-gray-700 py-3 rounded-lg flex items-center justify-center text-lg font-medium hover:bg-gray-200 transition-colors">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
+                            <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"></path>
+                        </svg>
+                        TRACKER PENJUALAN
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Plan Roadshows Card - TALLER -->
+            <div class="bg-white rounded-2xl shadow-xl p-8 text-center card-height flex flex-col transform hover:scale-105 transition-all">
+                <div class="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-10 h-10 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold mb-3">ROADSHOWS</h3>
+                
+                <div class="my-8">
+                    <div class="text-purple-600 text-4xl font-bold mb-2">100%</div>
+                    <div class="text-purple-500 text-base font-medium">SUCCESS RATE</div>
+                </div>
+                
+                <div class="space-y-3 mt-auto">
+                    <a href="https://docs.google.com/spreadsheets/d/1mxTdp_DRWfKMaeJrMGgrVRPTIKaUG6SHAEVCltmiHDw/edit?gid=0#gid=0" target="_blank" class="w-full bg-purple-600 text-white py-3 rounded-lg flex items-center justify-center text-lg font-medium hover:bg-purple-700 transition-colors">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                        </svg>
+                        ROADSHOW COUNT
+                    </a>
+                    <a href="https://docs.google.com/spreadsheets/d/1H7dmu_tzDR_UlJg6KFG_YRPvnb2ZsYOz5IL4Bs5M-x4/edit?gid=898121585#gid=898121585" target="_blank" class="w-full bg-gray-100 text-gray-700 py-3 rounded-lg flex items-center justify-center text-lg font-medium hover:bg-gray-200 transition-colors">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 005 10a6 6 0 0012 0c0-.358-.035-.708-.104-1.049A5.001 5.001 0 0010 11z" clip-rule="evenodd"></path>
+                        </svg>
+                        CALENDER ROADSHOW
+                    </a>
+                    <a href="https://docs.google.com/spreadsheets/d/1kmlho4hTAoCMRgIFYfbNxsQYUIrnb_Zv629MR9SmevA/edit?gid=0#gid=0" target="_blank" class="w-full bg-gray-100 text-gray-700 py-3 rounded-lg flex items-center justify-center text-lg font-medium hover:bg-gray-200 transition-colors">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 005 10a6 6 0 0012 0c0-.358-.035-.708-.104-1.049A5.001 5.001 0 0010 11z" clip-rule="evenodd"></path>
+                        </svg>
+                        LIST SEKOLAH 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Access Dashboard - BIGGER ITEMS -->
+    <div class="max-w-7xl mx-auto px-6 pb-24">
+        <h2 class="text-3xl font-bold mb-4">Quick Access To Drive</h2>
+      
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- PR -->
+            <a href="https://drive.google.com/drive/folders/1bbhQQ5AHuCtj2feFeON9g4DLHfSwoqkq?usp=sharing" target="_blank" class="border-2 border-gray-200 rounded-xl p-6 flex items-center hover:border-blue-400 hover:bg-blue-50 transition-all transform hover:scale-105 cursor-pointer shadow-lg">
+                <div class="w-16 h-16 bg-black rounded-full flex items-center justify-center mr-4">
+                    <span class="text-white text-2xl font-bold">PR</span>
+                </div>
+                <div>
+                    <div class="font-bold text-xl">PUBLIC RELATION</div>
+                    <div class="text-gray-500">Access Drive Files</div>
+                </div>
+            </a>
+            
+            <!-- MARKETING -->
+            <a href="https://drive.google.com/drive/folders/1bbhQQ5AHuCtj2feFeON9g4DLHfSwoqkq?usp=sharing" target="_blank" class="border-2 border-gray-200 rounded-xl p-6 flex items-center hover:border-purple-400 hover:bg-purple-50 transition-all transform hover:scale-105 cursor-pointer shadow-lg">
+                <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mr-4">
+                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </div>
+                <div>
+                    <div class="font-bold text-xl">MARKETING</div>
+                    <div class="text-gray-500">Access Drive Files</div>
+                </div>
+            </a>
+            
+            <!-- ROADSHOW -->
+            <a href="https://drive.google.com/drive/folders/1ZwM6RbLx664b74osDLmpuAHKjp0oDx6h" target="_blank" class="border-2 border-gray-200 rounded-xl p-6 flex items-center hover:border-green-400 hover:bg-green-50 transition-all transform hover:scale-105 cursor-pointer shadow-lg">
+                <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mr-4">
+                    <span class="text-white text-2xl font-bold">RS</span>
+                </div>
+                <div>
+                    <div class="font-bold text-xl">ROADSHOW</div>
+                    <div class="text-gray-500">Access Drive Files</div>
+                </div>
+            </a>
+            
+            <!-- CALENDAR -->
+            <a href="https://drive.google.com/drive/folders/1ZwM6RbLx664b74osDLmpuAHKjp0oDx6h" target="_blank" class="border-2 border-gray-200 rounded-xl p-6 flex items-center hover:border-purple-400 hover:bg-purple-50 transition-all transform hover:scale-105 cursor-pointer shadow-lg">
+                <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mr-4">
+                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <div>
+                    <div class="font-bold text-xl">CALENDAR</div>
+                    <div class="text-gray-500">Access Drive Files</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
