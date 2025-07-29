@@ -23,9 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-w66zopt&602_umjtm-9n58q9+=y&2(l*s)ege+=8+q@!3^^%xo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+if 'DEBUG' not in globals():
+    DEBUG = True
+else:
+    DEBUG = False
 
-ALLOWED_HOSTS = ["*"]  # Allow all hosts for development; change in production
+ALLOWED_HOSTS = ["http://127.0.0.1:8000", "http://localhost:8000", "bkui25-eksternal.vercel.app"]  # Allow all hosts for development; change in production
 
 
 # Application definition
